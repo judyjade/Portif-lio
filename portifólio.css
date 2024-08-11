@@ -155,7 +155,7 @@ img {
     }
 
     .image {
-        display: none;
+        margin: 2em 1em; 
     }
 
     .lista_serviços, .lista_tecnologias {
