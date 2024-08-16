@@ -19,6 +19,25 @@ body {
     font-weight: 400;
 }
 
+.cabecalho-nav {
+    display: flex;
+    justify-content: right;
+    background-color: var(--cor-rodape);
+    padding: 10px;
+}
+
+.cabecalho-nav__link {
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+    transition: 0.5s all;
+}
+
+.cabecalho-nav__link:hover {
+    font-size: 20px;
+    color: black;
+}
+
 .principal {
     background-size: contain;
     align-items: center;
@@ -125,6 +144,13 @@ img {
     margin: 5em;
     font-style: italic;
     font-size: 35px;
+}
+
+.rodape {
+    background-color: var(--cor-rodape);
+    padding: 30px;
+    color: black;
+    text-align: center;
 }
 
 @media  screen and (max-width: 768px) {
