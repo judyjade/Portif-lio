@@ -151,6 +151,7 @@ img {
     padding: 30px;
     color: black;
     text-align: center;
+    font-size: 12px;
 }
 
 @media  screen and (max-width: 768px) {
@@ -182,6 +183,7 @@ img {
 
     .image {
         margin: 2em; 
+        width: 80%;
     }
 
     .lista_serviços, .lista_tecnologias {
