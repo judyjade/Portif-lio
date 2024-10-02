@@ -154,6 +154,14 @@ img {
     font-size: 12px;
 }
 
+.fundo-caixa {
+    background-color: rgb(66, 21, 104);
+    width: 50%;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 15px;
+}
+
 @media  screen and (max-width: 768px) {
     .container {
         display: block;
